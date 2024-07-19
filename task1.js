@@ -18,5 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
         usersList.appendChild(listItem);
       });
     })
+
     .catch((error) => console.error("Error fetching users:", error));
 });
