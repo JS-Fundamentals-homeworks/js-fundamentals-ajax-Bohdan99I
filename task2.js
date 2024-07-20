@@ -22,7 +22,6 @@ document.getElementById("getUserButton").addEventListener("click", function () {
         userCitySpan.textContent = "User not found";
       }
     })
-
     .catch((error) => {
       console.error("Error fetching users:", error);
       userCitySpan.textContent = "Error fetching user data";
